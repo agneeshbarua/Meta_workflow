@@ -1,7 +1,7 @@
-name: "Meta_workflow"
+name: Meta_workflow
 output_dir: ../docs
 navbar:
-  title: "Meta_workflow"
+  title: Meta_workflow
   left:
   - text: Home
     href: index.html
@@ -9,6 +9,10 @@ navbar:
     href: about.html
   - text: License
     href: license.html
+  right:
+  - icon: fa-github
+    text: Source code
+    href: https://github.com/agneeshbarua/Meta_workflow
 output:
   workflowr::wflow_html:
     toc: yes
